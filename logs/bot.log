@@ -1,0 +1,187 @@
+2026-02-03 23:49:38 | INFO | aiogram.dispatcher | Start polling
+2026-02-03 23:49:38 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-03 23:49:47 | INFO | aiogram.event | Update id=242866777 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-03 23:49:54 | INFO | aiogram.event | Update id=242866778 is handled. Duration 249 ms by bot id=7808203791
+2026-02-03 23:50:06 | INFO | aiogram.event | Update id=242866779 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-03 23:50:48 | INFO | aiogram.event | Update id=242866780 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-03 23:53:07 | INFO | aiogram.dispatcher | Start polling
+2026-02-03 23:53:07 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-03 23:56:41 | INFO | aiogram.dispatcher | Start polling
+2026-02-03 23:56:41 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-03 23:56:50 | INFO | aiogram.event | Update id=242866781 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:03:30 | INFO | aiogram.event | Update id=242866782 is handled. Duration 256 ms by bot id=7808203791
+2026-02-04 00:05:07 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:05:07 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:05:16 | ERROR | bot.handlers.channel_posts | Unexpected error while posting first comment.
+Traceback (most recent call last):
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\handlers\channel_posts.py", line 36, in on_new_channel_post
+    await post_first_comment(message.bot, settings, message)
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\services\first_comment.py", line 27, in post_first_comment
+    discussion_msg = await bot.get_discussion_message(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'get_discussion_message'
+2026-02-04 00:05:16 | INFO | aiogram.event | Update id=242866783 is handled. Duration 718 ms by bot id=7808203791
+2026-02-04 00:05:19 | INFO | aiogram.event | Update id=242866784 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:05:38 | INFO | aiogram.event | Update id=242866785 is handled. Duration 101 ms by bot id=7808203791
+2026-02-04 00:05:50 | ERROR | bot.handlers.channel_posts | Unexpected error while posting first comment.
+Traceback (most recent call last):
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\handlers\channel_posts.py", line 36, in on_new_channel_post
+    await post_first_comment(message.bot, settings, message)
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\services\first_comment.py", line 27, in post_first_comment
+    discussion_msg = await bot.get_discussion_message(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'get_discussion_message'
+2026-02-04 00:05:50 | INFO | aiogram.event | Update id=242866786 is handled. Duration 100 ms by bot id=7808203791
+2026-02-04 00:05:52 | INFO | aiogram.event | Update id=242866787 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:06:25 | INFO | aiogram.event | Update id=242866788 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:06:56 | INFO | aiogram.event | Update id=242866789 is handled. Duration 396 ms by bot id=7808203791
+2026-02-04 00:10:48 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:10:48 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:11:03 | INFO | aiogram.event | Update id=242866790 is handled. Duration 313 ms by bot id=7808203791
+2026-02-04 00:11:08 | ERROR | bot.handlers.channel_posts | Unexpected error while posting first comment.
+Traceback (most recent call last):
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\handlers\channel_posts.py", line 36, in on_new_channel_post
+    await post_first_comment(message.bot, settings, message)
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\services\first_comment.py", line 27, in post_first_comment
+    discussion_msg = await bot.get_discussion_message(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'get_discussion_message'
+2026-02-04 00:11:08 | INFO | aiogram.event | Update id=242866791 is handled. Duration 141 ms by bot id=7808203791
+2026-02-04 00:11:11 | INFO | aiogram.event | Update id=242866792 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:11:36 | INFO | aiogram.event | Update id=242866793 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:11:51 | ERROR | bot.handlers.channel_posts | Unexpected error while posting first comment.
+Traceback (most recent call last):
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\handlers\channel_posts.py", line 36, in on_new_channel_post
+    await post_first_comment(message.bot, settings, message)
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\services\first_comment.py", line 27, in post_first_comment
+    discussion_msg = await bot.get_discussion_message(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'get_discussion_message'
+2026-02-04 00:11:51 | INFO | aiogram.event | Update id=242866794 is handled. Duration 160 ms by bot id=7808203791
+2026-02-04 00:11:54 | INFO | aiogram.event | Update id=242866795 is not handled. Duration 0 ms by bot id=7808203791
+2026-02-04 00:29:31 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:29:31 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:29:38 | INFO | aiogram.event | Update id=242866796 is handled. Duration 246 ms by bot id=7808203791
+2026-02-04 00:29:45 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=36
+2026-02-04 00:29:45 | INFO | aiogram.event | Update id=242866797 is handled. Duration 141 ms by bot id=7808203791
+2026-02-04 00:34:57 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:34:57 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:35:01 | INFO | aiogram.event | Update id=242866798 is handled. Duration 306 ms by bot id=7808203791
+2026-02-04 00:35:07 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=37
+2026-02-04 00:35:07 | INFO | aiogram.event | Update id=242866799 is handled. Duration 158 ms by bot id=7808203791
+2026-02-04 00:36:22 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=38
+2026-02-04 00:36:22 | INFO | aiogram.event | Update id=242866800 is handled. Duration 141 ms by bot id=7808203791
+2026-02-04 00:38:15 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:38:15 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:38:19 | INFO | aiogram.event | Update id=242866801 is handled. Duration 245 ms by bot id=7808203791
+2026-02-04 00:38:25 | INFO | aiogram.event | Update id=242866802 is not handled. Duration 3 ms by bot id=7808203791
+2026-02-04 00:38:25 | ERROR | aiogram.event | Cause exception while process update id=242866802 by bot id=7808203791
+AttributeError: 'Settings' object has no attribute 'first_comment_md'
+Traceback (most recent call last):
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\handlers\discussion_forwards.py", line 58, in on_discussion_auto_forward
+    await post_first_comment(message.bot, settings, message)
+  File "C:\Projects\Python\pirato4kaBotBlackWork\src\bot\services\first_comment.py", line 19, in post_first_comment
+    text = settings.first_comment_md.format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Python\pirato4kaBotBlackWork\.venv\Lib\site-packages\pydantic\main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Settings' object has no attribute 'first_comment_md'. Did you mean: 'first_comment_html'?
+2026-02-04 00:40:06 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:40:06 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:40:15 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=40
+2026-02-04 00:40:15 | INFO | aiogram.event | Update id=242866803 is handled. Duration 294 ms by bot id=7808203791
+2026-02-04 00:42:44 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:42:44 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:42:55 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=41
+2026-02-04 00:42:55 | INFO | aiogram.event | Update id=242866804 is handled. Duration 380 ms by bot id=7808203791
+2026-02-04 00:43:56 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:43:56 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:44:06 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=42
+2026-02-04 00:44:06 | INFO | aiogram.event | Update id=242866805 is handled. Duration 314 ms by bot id=7808203791
+2026-02-04 00:44:48 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:44:49 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:44:52 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=43
+2026-02-04 00:44:52 | INFO | aiogram.event | Update id=242866806 is handled. Duration 273 ms by bot id=7808203791
+2026-02-04 00:45:27 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:45:27 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:45:39 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=44
+2026-02-04 00:45:39 | INFO | aiogram.event | Update id=242866807 is handled. Duration 290 ms by bot id=7808203791
+2026-02-04 00:49:00 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:49:00 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:49:21 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=45
+2026-02-04 00:49:21 | INFO | aiogram.event | Update id=242866808 is handled. Duration 330 ms by bot id=7808203791
+2026-02-04 00:55:06 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 00:55:06 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
+2026-02-04 00:55:21 | INFO | bot.handlers.discussion_forwards | First comment posted for channel=-1002185181390 post=46
+2026-02-04 00:55:21 | INFO | aiogram.event | Update id=242866809 is handled. Duration 302 ms by bot id=7808203791
+2026-02-04 21:40:08 | INFO | aiogram.dispatcher | Start polling
+2026-02-04 21:40:08 | INFO | aiogram.dispatcher | Run polling for bot @TG8Bot_bot id=7808203791 - 'TelegramBot'
